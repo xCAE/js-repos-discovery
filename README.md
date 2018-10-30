@@ -26,7 +26,7 @@ Final string for query is generated with method `getQueryString` from src/gqls/h
 
 ## Optionsl Tasks:
 
-### #task4: Actually I haven't learned how to testing apps with apollo-client yet.
+### #task4: For testing queries I used `react-test-renderer` for rendering,  MockedProvider from `react-apollo/test-utils` and `waait` for async testing.
 ### #task5: Any previously queried and fetched results are stored and can be retrieved it the future from LocalStorage using [apollo-cache-persist](https://github.com/apollographql/apollo-cache-persist) module in /App.js component.
 ### #task6: The pagination realized with helper method `getPageGqlQuery` and methods of DiscoverRepos.js component such as `goToNextPage` and `goToPreviousPage`.
 ### #task7: It is not an real progress indicator, but I think its enough to just displaying "Loading..." in some cases.
