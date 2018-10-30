@@ -26,7 +26,7 @@ export const FilterLicenses = (props) => {
                                     onChange={props.toggleSelection}
                                     className='mx-3'
                                 />
-                            <label htmlFor={lic.key} className='checkbox'> {lic.name}</label>
+                            <label htmlFor={lic.key} className='checkbox'>{lic.name}</label>
                       </div>)
                     }
                   </div>

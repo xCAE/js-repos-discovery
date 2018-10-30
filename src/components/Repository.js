@@ -25,7 +25,7 @@ export const Repository = (props) => {
                                 style={{maxWidth: '90%', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'wrap', verticalAlign: 'top' }} 
                                 href={url}
                              >
-                                <div className='text-normal '>{owner.login}/{name}</div>
+                                <div className='text-normal'>{owner.login}/{name}</div>
                              </a>
                          </h3>
                      </div>

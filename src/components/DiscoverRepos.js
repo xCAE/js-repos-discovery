@@ -70,7 +70,7 @@ class DiscoverRepos extends Component {
         if (hasNextPage) {
             this.setState({
                 position: 'first',
-                place: `after: ${endCursor}`,
+                place: `after: "${endCursor}"`,
             });
         }
     }
@@ -79,7 +79,7 @@ class DiscoverRepos extends Component {
         if (hasPreviousPage) {
             this.setState({
                 position: 'last',
-                place: `before: ${startCursor}`,
+                place: `before: "${startCursor}"`,
             });
         }
     }

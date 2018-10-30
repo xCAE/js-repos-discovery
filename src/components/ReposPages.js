@@ -10,7 +10,6 @@ export const ReposPages = (props) =>  {
         <Query 
             query={props.pageQuery} 
             variables={props.pageVariables} 
-            onCompleted={props.syncLocalStorage}
             > 
             {({ loading, error, data }) => {
                 if (loading) return <p>Loading...</p>;
